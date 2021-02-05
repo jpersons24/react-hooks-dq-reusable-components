@@ -3,6 +3,7 @@ import Inventory from "./Inventory";
 import Shop from "./Shop";
 import potions from "../data";
 
+
 function App() {
   const [gold, setGold] = useState(500);
   const [inventory, setInventory] = useState([]);
